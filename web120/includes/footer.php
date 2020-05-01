@@ -1,10 +1,17 @@
 <!--Footer include starts here. Add/cut bottom to add to footer.php-->
 <!-- START Footer -->    
     <footer>
-        <p><small>&copy; 2020 - <?=date('Y')?> <a href="contactme.php" target="_blank">Hanna Negash</a>, All Rights Reserved ~ 
-        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fallgreenleaves.com%2Fweb120%2Findex.php" target="_blank">Valid HTML5</a> ~ 
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fallgreenleaves.com%2Fweb120%2Findex.php&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Valid CSS</a></small></p>
-    </footer> 
+           
+<footer>
+  <ul>
+    <li>&copy; 2020- <?=date('Y')?></li>
+    <li>All Rights Reserved</li>
+    <li><a href="contactme.php">Hanna Negash</a></li>
+    <li><a href="http://validator.w3.org/check/referer">Valid HTML5</a></li>
+    <li><a href="http://jigsaw.w3.org/css-validator/check?uri=referer">Valid CSS</a></li>
+   </ul>
+</footer> 
+        
 <!-- END Footer -->  
 </main> 
 <!-- END WRAPPER -->

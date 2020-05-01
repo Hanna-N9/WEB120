@@ -39,29 +39,38 @@ div.embed-container iframe {
     height: 100%;
 }
 
-/*Small edit*/
+/*Additional*/
 
 img.desktop {
-    margin-right:15px;
-    margin-left:5px;
+    margin:0 15px 15px 5px;
 }
+
 
 h2{
-    margin-left:10px;
-    font-size:1.8em;
-    text-align:center;
+    margin-left:15px;
+    font-size:1.5em;
 }
 
+/*Footer*/
 footer{
     clear:both;
-    height:50px;
-    line-height:50px;
-    padding-left:20px;
+    margin-top: 10px;
+    margin-left:10%;
 }
 
-footer a{
-    text-decoration:none;
+footer li{ 
+    display:inline;
+    margin-right:15px;
+    font-size:.98em;
+} 
+
+footer a{ 
+    text-decoration:none; 
 }
+
+/*Footer Ends*/
+
+/*Additional End*/
 
 
 /* START RESPONSIVE STYLES */
