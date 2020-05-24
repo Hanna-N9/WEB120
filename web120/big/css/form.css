@@ -1,0 +1,94 @@
+form{
+    width:76%;  /*510px divided by 648*/
+    margin-top:3.08%; 
+    padding:10px;
+    margin-right: 10px;
+}
+
+
+fieldset {
+    padding:1.72%; 
+    margin-bottom:3.44%; 
+    border:2px solid black;
+    margin-right:10px; 
+    border-radius:1.37%; 
+}
+
+/*The label/title inside the fieldset*/
+label {
+    margin-bottom:0.862%; 
+    display:block;  
+    font-size:1.15em;
+    padding-bottom:.517%; 
+}
+
+/*White blank boxes hench, why name="" to tell you which and which*/
+input {
+    width:80%; /*To make the box longer*/   
+    margin-bottom:1.72%; 
+    height:30px;
+    padding-left:.517%; 
+}
+
+input[type=submit]{
+    width:auto;  /* The box of submit won't be the same size as above, but just its own size according to its font's size. */
+}
+
+input[type=radio], input[type=checkbox]{
+    width:auto;
+    height:auto;
+    margin-right:.862%; /*5px divide by 580*/
+}
+
+legend {
+    font-style:italic;
+    font-size:1.2em;
+    padding: 0 5px;
+}
+
+textarea {
+    width:80%;
+    resize:none;  /* Without moving the size of textarea box. You will use width and height instead.*/   
+    margin-bottom:1.86%; /*10px divide by 536 (width of textarea)*/
+    height:80px;
+    font-size:.8em;
+    padding-top:.559%; /*3px divide by 536 (width of textarea)*/
+    padding-left:.559%; /*3px divide by 536*/
+}
+
+select {
+    margin-bottom:1.78%; /*10px divide by 560*/
+}
+
+@media screen and (max-width: 600px) {
+  .resp-form, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+    
+    legend {
+    font-size:.9em;
+}
+    
+    textarea {
+      font-size:.9em;  
+    }
+   
+    label{
+         font-size:.9em;
+    }
+    
+    fieldset, input{
+        background:beige;
+    }
+       
+}
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	 fieldset, input{
+        background:beige;
+    }
+       
+}

@@ -1,0 +1,199 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: sans-serif;
+    background:#ede1e1;
+
+}
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+}
+
+.logo {
+    color:#939292;
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+
+img.sizing{
+    margin-left:50px;
+    padding:10px 0 10px 0;  
+}
+
+#wrapper{
+    width:80%;
+    margin:0 auto;
+    padding:20px;
+    background:white;
+
+}
+
+main{
+    width:55%; /*520px divided by 940*/
+    float:left;
+    margin-bottom:2.12%; /*20px divided by 940*/
+    margin-top:1.06%; /*10px divided by 940*/
+    padding-left:2.12%; /*20px divided by 940*/
+    padding-right:1.06%; /*10px divided by 940*/
+    padding-top:1.06%; /*10px divided by 940*/
+    padding-bottom:1.26%; 
+    background:#c9c9c9;
+}
+
+aside{
+    width:36.17%; /*340px divided by 940*/
+    float:right;
+    padding:5px;
+    border:1px black solid;
+    margin-top:1.06%; /*10px divided by 940*/
+
+} 
+ 
+
+ul.citation{
+    margin-left: 20px;
+    word-wrap: break-word
+}
+
+ul.citation li{
+    font-size: .95em;
+    margin-top:20px;
+}
+
+/*Footer Starts*/
+
+footer{
+    clear:both;
+    margin-top: 10px;
+    margin-left:10%;
+    padding-bottom:5px;
+}
+
+footer li{ 
+    display:inline;
+    margin-right:15px;
+} 
+
+footer a{ 
+    text-decoration:none; 
+}
+
+
+.embed-dot{
+    overflow:hidden;
+}
+
+p{
+    line-height:1.4em;
+}
+
+h2, h3 {
+    margin-top: 10px;
+}
+
+/*Footer Ends*/
+
+/*Start EMBED RESPONSIVELY Styles (for Youtube, map)*/
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%;
+  height: 0; 
+  overflow: 
+  hidden; max-width: 100%; 
+} 
+
+.embed-container iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+/*End EMBED RESPONSIVELY Styles*/
+
+/*HIDE AGENDA VIEW CALENDAR*/
+div.embed-container.agenda-view{
+    display:none;
+}
+
+/*Calendar Rules for Phone*/
+
+@media all and (max-width:736px) {
+
+    /* Show Agenda View Calendar */
+      div.embed-container.agenda-view {
+        display:block;
+   }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+       display:none;
+   }
+}
+
+
+/*Tablet and Phone*/
+@media all and (max-width:860px){
+    
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+   	 }
+    
+     ul.citation li{
+       font-size: .3em;
+   }
+    
+    img.sizing{
+      max-width: 80%;
+   }
+
+
+    main{
+        background:white; 
+        width:90%
+    }
+    
+    aside{
+        margin-bottom: 10px;
+        margin-right: 70px;
+        width:70%;
+    }
+    
+    p{
+        font-size:.5em;
+     
+    }
+    
+    h2{ 
+        font-size:1em;
+        
+    }
+    
+    h3{ 
+        font-size:.8em;  
+    }
+}
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+    }
+}
+
+
+
+
+
+
