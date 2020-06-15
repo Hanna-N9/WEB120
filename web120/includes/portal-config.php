@@ -29,6 +29,16 @@ switch(THIS_PAGE){
         $title = "Hanna's WEB120 Contact Page";
         $logo = 'fa-pencil-square-o';
         $PageID = 'Contact Hanna';
+    break; 
+
+    case 'aia.php':
+    $title = "Hanna's WEB120 AIA Page";
+    $PageID = 'AIA';
+    break;
+           
+    case 'flowchart.php':
+    $title = "Hanna's WEB120 Flowchart Page";
+    $PageID = 'Flowchart and Wireframes for Final Project';
     break;
       
     default:

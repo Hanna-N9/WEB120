@@ -14,8 +14,9 @@
 
 <body>
 <!-- START WRAPPER -->
-<main class="wrapper">
 <header>
+<div id="wrapper">
+
   <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i> Hanna Negash's WEB120 Portal</a></h1>
   
   <nav>

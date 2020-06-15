@@ -1,6 +1,5 @@
 <!--Footer include starts here. Add/cut bottom to add to footer.php-->
 <!-- START Footer -->    
-    <footer>
            
 <footer>
   <ul>
@@ -13,9 +12,7 @@
 </footer> 
         
 <!-- END Footer -->  
-</main> 
-<!-- END WRAPPER -->
-
+</main>
     <!-- JavaScript associated with the W3Schools.com Top Navigation Response Exercise --> 
     
 <script>
