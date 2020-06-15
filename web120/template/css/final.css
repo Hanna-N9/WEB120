@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: helvatica, arial, sans-serif;
+    font-size:100%;
+/*  background: #e5d7c4;*/
+    background: #f1f2f5;
+}
+
+
+.logo{
+    border-radius:2em;
+    margin-bottom: 5px;
+}
+
+#wrapper{
+    width:80%;
+    background:white;
+    margin:0 auto;
+}
+
+#container{
+    width:80%;
+    margin:0 auto;
+
+}
+
+#bcolor{
+  background:white;
+}
+
+main {
+     width:61.70%; /*580px divided by 940px*/
+     float:left;
+     padding-top:1.06%; /*10px divided by 940*/
+     padding-right:2.12%; /*20px divided by 940*/
+     padding-left:2.12%; /*20px divided by 940*/
+}
+
+aside{
+    width:36.17%; /*340px divided by 940*/
+    float:right;
+    margin-top:1.06%; /*12px divided by 940*/
+    padding-bottom:1.8%; /*16.92px divided by 940*/
+    padding:10px;
+} 
+
+h2{
+    font-size:2.3em;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top:15px;
+}
+
+h3, h4{
+   font-size:1.5em;
+}
+
+h4{
+    text-align: center;
+}
+
+                       /***********Images*********/
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+img.first{
+    margin-bottom:50px;
+}
+
+img.third{
+    float:right;
+    margin-right: 50%;
+    margin-bottom: 30px;
+}
+
+
+
+                       /***********Images End*********/
+
+
+
+                       /***********ARTS' galleries Start*********/
+/*Copied some codes from https://www.w3schools.com/css/css_image_gallery.asp*/
+
+div.gallery {
+/*  border: 1px solid #ccc;*/
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+
+.responsive {
+    width:22%; /*220px divided by 1000*/
+    float:left;
+    margin-left:2%;
+    margin-bottom:1.04%; /*15px divided by 1000*/
+    
+}
+
+                       /***********ARTS' galleries End*********/
+
+
+figcaption{
+    text-align: center;
+    }
+
+
+
+                    /***********Footer Starts*********/
+
+footer{
+    clear:both;
+    margin-left:10%;
+    padding-bottom:5px;
+}
+
+footer li{ 
+    display:inline;
+    margin-right:15px;
+} 
+
+footer a{ 
+    text-decoration:none; 
+}
+
+
+/*Footer ends*/
+
+
+
+
+/*Copied a code (for galleries) from  https://www.w3schools.com/css/css_image_gallery.asp */
+
+@media only screen and (max-width: 800px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+  }
+    
+}
+
+/* Desktops and laptops ----------- */
+@media all and (min-width:1280px) {
+  /* CSS rules */
+
+img.third{
+        margin-right: 25%;
+
+    }
+    
+     footer{
+        line-height:40px;
+    }
+      
+    
+}
+
+
+
+/* Tablets  (portrait and landscape) ----------- */
+@media all and (min-width:768px) and (max-width:1279px) {
+  /* CSS rules */
+
+    img.third{
+        margin-right:0;
+
+    }
+    
+    
+    figcaption{
+        font-size:.8em;
+  }
+    
+    footer {
+        margin-right:30px;
+    }
+    
+
+}
+
+    
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 767px) {
+  
+   .responsive {
+    width: 90%;
+    margin-left:15px; 
+  }
+    
+    .logo{
+    width:50%
+ }
+
+    main{
+        width:100%;
+    }
+    
+    aside{
+        margin-right: 70px;
+        width:70%;
+    }
+    
+    img.first{
+        margin-bottom:20px;
+    }
+    
+    
+    h2{ 
+        font-size:1.7em;
+    }
+    
+    h3, h4{
+        font-size:1em;
+    }
+    
+    p{
+        font-size:.8em;
+    }
+    
+    figcaption{
+        font-size:.7em; 
+    }
+
+    
+    footer li{
+        margin-right:15px;
+        font-size:.8em;
+    }
+    
+    footer {
+        margin-right:30px;
+        padding-right:20px;
+    }
+
+    img.third{
+       float: none;
+
+    }
+    
+    #wrapper{
+      width:100%;
+      float:left;
+    }
+}
